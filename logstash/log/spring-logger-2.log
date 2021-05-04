@@ -1,0 +1,162 @@
+2021-04-27 11:13:32.696  INFO 22104 --- [main] c.l.SpringBootExceptionApplication       : Starting SpringBootExceptionApplication using Java 11 on ADBIN0324 with PID 22104 (C:\myworkspace\spring-boot-exception\build\classes\java\main started by ashish.agrawal in C:\myworkspace\spring-boot-exception)
+2021-04-27 11:13:32.701 DEBUG 22104 --- [main] c.l.SpringBootExceptionApplication       : Running with Spring Boot v2.4.5, Spring v5.3.6
+2021-04-27 11:13:32.702  INFO 22104 --- [main] c.l.SpringBootExceptionApplication       : No active profile set, falling back to default profiles: default
+2021-04-27 11:13:42.401  INFO 22104 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2021-04-27 11:13:42.423  INFO 22104 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-27 11:13:42.423  INFO 22104 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-04-27 11:13:42.530  INFO 22104 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-27 11:13:42.530  INFO 22104 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 9725 ms
+2021-04-27 11:13:42.837  INFO 22104 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-27 11:13:43.157  INFO 22104 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2021-04-27 11:13:43.173  INFO 22104 --- [main] c.l.SpringBootExceptionApplication       : Started SpringBootExceptionApplication in 11.263 seconds (JVM running for 11.844)
+2021-04-27 11:14:03.893  INFO 22104 --- [http-nio-8081-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-27 11:14:03.929 DEBUG 22104 --- [http-nio-8081-exec-2] com.logging.resource.DemoController      : debug message
+2021-04-27 11:14:03.930  INFO 22104 --- [http-nio-8081-exec-2] com.logging.resource.DemoController      : This is an info message
+2021-04-27 11:14:03.930  WARN 22104 --- [http-nio-8081-exec-2] com.logging.resource.DemoController      : Warning for this application
+2021-04-27 11:14:03.933 ERROR 22104 --- [http-nio-8081-exec-2] com.logging.resource.DemoController      : Seems some error in the application
+2021-04-27 11:14:04.143 DEBUG 22104 --- [http-nio-8081-exec-1] com.logging.resource.DemoController      : debug message
+2021-04-27 11:14:04.144  INFO 22104 --- [http-nio-8081-exec-1] com.logging.resource.DemoController      : This is an info message
+2021-04-27 11:14:04.144  WARN 22104 --- [http-nio-8081-exec-1] com.logging.resource.DemoController      : Warning for this application
+2021-04-27 11:14:04.144 ERROR 22104 --- [http-nio-8081-exec-1] com.logging.resource.DemoController      : Seems some error in the application
+2021-04-27 11:14:04.316 DEBUG 22104 --- [http-nio-8081-exec-3] com.logging.resource.DemoController      : debug message
+2021-04-27 11:14:04.317  INFO 22104 --- [http-nio-8081-exec-3] com.logging.resource.DemoController      : This is an info message
+2021-04-27 11:14:04.317  WARN 22104 --- [http-nio-8081-exec-3] com.logging.resource.DemoController      : Warning for this application
+2021-04-27 11:14:04.318 ERROR 22104 --- [http-nio-8081-exec-3] com.logging.resource.DemoController      : Seems some error in the application
+2021-04-27 11:14:04.452 DEBUG 22104 --- [http-nio-8081-exec-4] com.logging.resource.DemoController      : debug message
+2021-04-27 11:14:04.452  INFO 22104 --- [http-nio-8081-exec-4] com.logging.resource.DemoController      : This is an info message
+2021-04-27 11:14:04.453  WARN 22104 --- [http-nio-8081-exec-4] com.logging.resource.DemoController      : Warning for this application
+2021-04-27 11:14:04.454 ERROR 22104 --- [http-nio-8081-exec-4] com.logging.resource.DemoController      : Seems some error in the application
+2021-04-27 11:15:45.796  INFO 11748 --- [main] c.l.SpringBootExceptionApplication       : Starting SpringBootExceptionApplication using Java 11 on ADBIN0324 with PID 11748 (C:\myworkspace\spring-boot-exception\build\classes\java\main started by ashish.agrawal in C:\myworkspace\spring-boot-exception)
+2021-04-27 11:15:45.800 DEBUG 11748 --- [main] c.l.SpringBootExceptionApplication       : Running with Spring Boot v2.4.5, Spring v5.3.6
+2021-04-27 11:15:45.801  INFO 11748 --- [main] c.l.SpringBootExceptionApplication       : No active profile set, falling back to default profiles: default
+2021-04-27 11:15:56.283  INFO 11748 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2021-04-27 11:15:56.304  INFO 11748 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-27 11:15:56.304  INFO 11748 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-04-27 11:15:56.407  INFO 11748 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-27 11:15:56.407  INFO 11748 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 10493 ms
+2021-04-27 11:15:56.736  INFO 11748 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-27 11:15:57.084  INFO 11748 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2021-04-27 11:15:57.103  INFO 11748 --- [main] c.l.SpringBootExceptionApplication       : Started SpringBootExceptionApplication in 12.081 seconds (JVM running for 12.681)
+2021-04-27 11:16:03.441  INFO 11748 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-27 11:16:03.472 DEBUG 11748 --- [http-nio-8081-exec-1] com.logging.resource.DemoController      : debug message
+2021-04-27 11:16:03.472  INFO 11748 --- [http-nio-8081-exec-1] com.logging.resource.DemoController      : This is an info message
+2021-04-27 11:16:03.472  WARN 11748 --- [http-nio-8081-exec-1] com.logging.resource.DemoController      : Warning for this application
+2021-04-27 11:16:03.472 ERROR 11748 --- [http-nio-8081-exec-1] com.logging.resource.DemoController      : Seems some error in the application
+2021-04-27 11:16:09.289 ERROR 11748 --- [http-nio-8081-exec-3] c.l.exception.DemoExceptionHandler       : Exception message java.lang.RuntimeException: From method exception
+2021-04-27 11:16:27.454 ERROR 11748 --- [http-nio-8081-exec-5] c.l.exception.DemoExceptionHandler       : Exception message java.lang.IllegalStateException: Invocation failure
+Controller [com.logging.resource.DemoController]
+Method [java.lang.String com.logging.resource.DemoController.customExceptionOne() throws com.logging.exception.CustomExceptionOne] with argument values:
+  
+2021-04-27 11:18:41.841  INFO 7136 --- [main] c.l.SpringBootExceptionApplication       : Starting SpringBootExceptionApplication using Java 11 on ADBIN0324 with PID 7136 (C:\myworkspace\spring-boot-exception\build\classes\java\main started by ashish.agrawal in C:\myworkspace\spring-boot-exception)
+2021-04-27 11:18:41.845 DEBUG 7136 --- [main] c.l.SpringBootExceptionApplication       : Running with Spring Boot v2.4.5, Spring v5.3.6
+2021-04-27 11:18:41.846  INFO 7136 --- [main] c.l.SpringBootExceptionApplication       : No active profile set, falling back to default profiles: default
+2021-04-27 11:18:52.444  INFO 7136 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2021-04-27 11:18:52.463  INFO 7136 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-27 11:18:52.464  INFO 7136 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-04-27 11:18:52.574  INFO 7136 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-27 11:18:52.574  INFO 7136 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 10619 ms
+2021-04-27 11:18:52.907  INFO 7136 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-27 11:18:53.283  INFO 7136 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2021-04-27 11:18:53.302  INFO 7136 --- [main] c.l.SpringBootExceptionApplication       : Started SpringBootExceptionApplication in 12.201 seconds (JVM running for 13.022)
+2021-04-27 11:19:03.822  INFO 7136 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-27 11:19:03.862 DEBUG 7136 --- [http-nio-8081-exec-1] com.logging.resource.DemoController      : debug message
+2021-04-27 11:19:03.862  INFO 7136 --- [http-nio-8081-exec-1] com.logging.resource.DemoController      : This is an info message
+2021-04-27 11:19:03.862  WARN 7136 --- [http-nio-8081-exec-1] com.logging.resource.DemoController      : Warning for this application
+2021-04-27 11:19:03.862 ERROR 7136 --- [http-nio-8081-exec-1] com.logging.resource.DemoController      : Seems some error in the application
+2021-04-27 11:19:08.295 ERROR 7136 --- [http-nio-8081-exec-2] com.logging.resource.DemoController      : java.lang.ArithmeticException: / by zero
+2021-04-27 11:19:29.410  INFO 8684 --- [main] c.l.SpringBootExceptionApplication       : Starting SpringBootExceptionApplication using Java 11 on ADBIN0324 with PID 8684 (C:\myworkspace\spring-boot-exception\build\classes\java\main started by ashish.agrawal in C:\myworkspace\spring-boot-exception)
+2021-04-27 11:19:29.416 DEBUG 8684 --- [main] c.l.SpringBootExceptionApplication       : Running with Spring Boot v2.4.5, Spring v5.3.6
+2021-04-27 11:19:29.418  INFO 8684 --- [main] c.l.SpringBootExceptionApplication       : No active profile set, falling back to default profiles: default
+2021-04-27 11:19:39.294  INFO 8684 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2021-04-27 11:19:39.323  INFO 8684 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-27 11:19:39.324  INFO 8684 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-04-27 11:19:39.436  INFO 8684 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-27 11:19:39.437  INFO 8684 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 9890 ms
+2021-04-27 11:19:39.772  INFO 8684 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-27 11:19:39.794 DEBUG 8684 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-04-27 11:19:39.917 DEBUG 8684 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 7 mappings in 'requestMappingHandlerMapping'
+2021-04-27 11:19:39.962 DEBUG 8684 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-04-27 11:19:39.978 DEBUG 8684 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-04-27 11:19:40.135  INFO 8684 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2021-04-27 11:19:40.150  INFO 8684 --- [main] c.l.SpringBootExceptionApplication       : Started SpringBootExceptionApplication in 11.552 seconds (JVM running for 12.166)
+2021-04-27 11:19:46.385  INFO 8684 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-27 11:19:46.386  INFO 8684 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-04-27 11:19:46.387 DEBUG 8684 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2021-04-27 11:19:46.387 DEBUG 8684 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2021-04-27 11:19:46.387 DEBUG 8684 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2021-04-27 11:19:46.389 DEBUG 8684 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@6131f1b3
+2021-04-27 11:19:46.389 DEBUG 8684 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@526a97ed
+2021-04-27 11:19:46.389 DEBUG 8684 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2021-04-27 11:19:46.390  INFO 8684 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2021-04-27 11:19:46.408 DEBUG 8684 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/errorStack", parameters={}
+2021-04-27 11:19:46.415 DEBUG 8684 --- [http-nio-8081-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.logging.resource.DemoController#errorStack()
+2021-04-27 11:19:46.427 ERROR 8684 --- [http-nio-8081-exec-1] com.logging.resource.DemoController      : java.lang.ArithmeticException: / by zero
+2021-04-27 11:19:46.452 DEBUG 8684 --- [http-nio-8081-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json;q=0.8', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-04-27 11:19:46.453 DEBUG 8684 --- [http-nio-8081-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Nothing to write: null body
+2021-04-27 11:19:46.454 DEBUG 8684 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-04-27 11:19:53.450 DEBUG 8684 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/errorStack", parameters={}
+2021-04-27 11:19:53.451 DEBUG 8684 --- [http-nio-8081-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.logging.resource.DemoController#errorStack()
+2021-04-27 11:19:53.452 ERROR 8684 --- [http-nio-8081-exec-2] com.logging.resource.DemoController      : java.lang.ArithmeticException: / by zero
+2021-04-27 11:19:53.453 DEBUG 8684 --- [http-nio-8081-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json;q=0.8', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-04-27 11:19:53.454 DEBUG 8684 --- [http-nio-8081-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Nothing to write: null body
+2021-04-27 11:19:53.454 DEBUG 8684 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-04-27 11:19:53.790 DEBUG 8684 --- [http-nio-8081-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/errorStack", parameters={}
+2021-04-27 11:19:53.792 DEBUG 8684 --- [http-nio-8081-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.logging.resource.DemoController#errorStack()
+2021-04-27 11:19:53.793 ERROR 8684 --- [http-nio-8081-exec-3] com.logging.resource.DemoController      : java.lang.ArithmeticException: / by zero
+2021-04-27 11:19:53.795 DEBUG 8684 --- [http-nio-8081-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json;q=0.8', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-04-27 11:19:53.795 DEBUG 8684 --- [http-nio-8081-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Nothing to write: null body
+2021-04-27 11:19:53.796 DEBUG 8684 --- [http-nio-8081-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-04-27 11:19:53.946 DEBUG 8684 --- [http-nio-8081-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/errorStack", parameters={}
+2021-04-27 11:19:53.947 DEBUG 8684 --- [http-nio-8081-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.logging.resource.DemoController#errorStack()
+2021-04-27 11:19:53.947 ERROR 8684 --- [http-nio-8081-exec-4] com.logging.resource.DemoController      : java.lang.ArithmeticException: / by zero
+2021-04-27 11:19:53.948 DEBUG 8684 --- [http-nio-8081-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json;q=0.8', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-04-27 11:19:53.948 DEBUG 8684 --- [http-nio-8081-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Nothing to write: null body
+2021-04-27 11:19:53.949 DEBUG 8684 --- [http-nio-8081-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-04-27 11:45:45.573  INFO 21888 --- [main] c.logging.SpringBootLoggingApplication   : Starting SpringBootLoggingApplication using Java 11 on ADBIN0324 with PID 21888 (C:\myworkspace\spring-boot-logging\build\classes\java\main started by ashish.agrawal in C:\myworkspace\spring-boot-logging)
+2021-04-27 11:45:45.578 DEBUG 21888 --- [main] c.logging.SpringBootLoggingApplication   : Running with Spring Boot v2.4.5, Spring v5.3.6
+2021-04-27 11:45:45.582  INFO 21888 --- [main] c.logging.SpringBootLoggingApplication   : No active profile set, falling back to default profiles: default
+2021-04-27 11:45:56.157  INFO 21888 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2021-04-27 11:45:56.186  INFO 21888 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-27 11:45:56.186  INFO 21888 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-04-27 11:45:56.321  INFO 21888 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-27 11:45:56.321  INFO 21888 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 10591 ms
+2021-04-27 11:45:56.806  INFO 21888 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-27 11:45:56.835 DEBUG 21888 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-04-27 11:45:57.001 DEBUG 21888 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 7 mappings in 'requestMappingHandlerMapping'
+2021-04-27 11:45:57.064 DEBUG 21888 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-04-27 11:45:57.082 DEBUG 21888 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-04-27 11:45:57.259  WARN 21888 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8081 is already in use
+2021-04-27 11:45:57.260  INFO 21888 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-27 11:45:57.266  INFO 21888 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2021-04-27 11:45:57.306  INFO 21888 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-04-27 11:45:57.339 ERROR 21888 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8081 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8081 or configure this application to listen on another port.
+
+2021-04-27 11:51:53.665  INFO 12092 --- [main] c.logging.SpringBootLoggingApplication   : Starting SpringBootLoggingApplication using Java 11 on ADBIN0324 with PID 12092 (C:\myworkspace\spring-boot-logging\build\classes\java\main started by ashish.agrawal in C:\myworkspace\spring-boot-logging)
+2021-04-27 11:51:53.673 DEBUG 12092 --- [main] c.logging.SpringBootLoggingApplication   : Running with Spring Boot v2.4.5, Spring v5.3.6
+2021-04-27 11:51:53.675  INFO 12092 --- [main] c.logging.SpringBootLoggingApplication   : No active profile set, falling back to default profiles: default
+2021-04-27 11:52:04.838  INFO 12092 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2021-04-27 11:52:04.862  INFO 12092 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-27 11:52:04.863  INFO 12092 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-04-27 11:52:05.012  INFO 12092 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-27 11:52:05.013  INFO 12092 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 11100 ms
+2021-04-27 11:52:05.436  INFO 12092 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-27 11:52:05.468 DEBUG 12092 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-04-27 11:52:05.653 DEBUG 12092 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 7 mappings in 'requestMappingHandlerMapping'
+2021-04-27 11:52:05.745 DEBUG 12092 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-04-27 11:52:05.772 DEBUG 12092 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-04-27 11:52:06.045  INFO 12092 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2021-04-27 11:52:06.083  INFO 12092 --- [main] c.logging.SpringBootLoggingApplication   : Started SpringBootLoggingApplication in 13.576 seconds (JVM running for 14.596)
